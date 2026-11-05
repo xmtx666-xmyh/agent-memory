@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+index/
+.pytest_cache/
+.agent-memory/
+dist/
+
+# 私有词表（打包前敏感词机检用，绝不进库/进包）
+.private-terms.txt

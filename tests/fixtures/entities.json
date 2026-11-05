@@ -1,0 +1,53 @@
+{
+ "_comment": "测试夹具用的示例实体表（真实表在 index/entities.json，由 cli.py init 生成）。",
+ "entities": {
+  "demo-kb": [
+   "demo-wiki",
+   "demo-base",
+   "demo-next",
+   "demo-wiki2",
+   "demo-system",
+   "demo-kb",
+   "kb_next"
+  ],
+  "示例客户项目(DEMO2021)": [
+   "demo2021",
+   "示例客户项目三期",
+   "示例园区三期",
+   "示例园区"
+  ],
+  "示例街道A": [
+   "示例街道"
+  ],
+  "示例工具库": [
+   "示例工具库"
+  ],
+  "Hermes agent": [
+   "hermes"
+  ],
+  "DSH": [
+   "dsh",
+   "deepseek harness"
+  ],
+  "Codex": [
+   "codex"
+  ],
+  "WorkBuddy": [
+   "workbuddy"
+  ],
+  "CodeBuddy": [
+   "codebuddy"
+  ],
+  "PageIndex": [
+   "pageindex"
+  ],
+  "Ollama/llama-server": [
+   "ollama",
+   "llama-server",
+   "llama.cpp"
+  ],
+  "demo-shield": [
+   "demo-shield"
+  ]
+ }
+}

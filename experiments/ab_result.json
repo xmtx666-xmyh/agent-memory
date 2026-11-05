@@ -1,0 +1,278 @@
+[
+ {
+  "arm": "base",
+  "inject": false,
+  "steps": 4,
+  "prompt_chars": 2207,
+  "est_tokens": 1379,
+  "first_call_failed": true,
+  "found_file": false,
+  "correct": false,
+  "answer": "无法找到目标文件。根据错误信息，路径 F:\\demo-wiki\\server\\api\\wiki.py 及其父目录均不存在。请确认项目实际路径或检查是否已正确安装/克隆项目。",
+  "sec": 3.7,
+  "trace": [
+   {
+    "step": 1,
+    "action": "read",
+    "path": "F:\\demo-wiki\\server\\api\\wiki.py",
+    "ok": false,
+    "result_head": "ERROR: 文件不存在: F:\\demo-wiki\\server\\api\\wiki.py"
+   },
+   {
+    "step": 2,
+    "action": "list",
+    "path": "F:\\demo-wiki\\server\\api",
+    "ok": false,
+    "result_head": "ERROR: 目录不存在: F:\\demo-wiki\\server\\api"
+   },
+   {
+    "step": 3,
+    "action": "list",
+    "path": "F:\\demo-wiki",
+    "ok": false,
+    "result_head": "ERROR: 目录不存在: F:\\demo-wiki"
+   },
+   {
+    "step": 4,
+    "action": "answer",
+    "text": "无法找到目标文件。根据错误信息，路径 F:\\demo-wiki\\server\\api\\wiki.py 及其父目录均不存在。请确认项目实际路径或检查是否已正确安装/克隆项目。"
+   }
+  ]
+ },
+ {
+  "arm": "inject",
+  "inject": true,
+  "steps": 2,
+  "prompt_chars": 2525,
+  "est_tokens": 1578,
+  "first_call_failed": false,
+  "found_file": true,
+  "correct": true,
+  "answer": "该文件使用 `APIRouter` 创建路由对象，代码为：router = APIRouter()",
+  "sec": 1.9,
+  "trace": [
+   {
+    "step": 1,
+    "action": "read",
+    "path": "F:\\demo-base\\server\\api\\wiki.py",
+    "ok": true,
+    "result_head": "OK: 内容前 4000 字\n\"\"\"Wiki 管理 API\n\n错误口径（2026-10-08 内审 ext-183）：本文件原先靠 HTTP 200 + `{\"status\": \"error\", .."
+   },
+   {
+    "step": 2,
+    "action": "answer",
+    "text": "该文件使用 `APIRouter` 创建路由对象，代码为：router = APIRouter()"
+   }
+  ]
+ },
+ {
+  "arm": "fresh",
+  "inject": false,
+  "steps": 2,
+  "prompt_chars": 2309,
+  "est_tokens": 1443,
+  "first_call_failed": false,
+  "found_file": true,
+  "correct": true,
+  "answer": "该文件使用 `APIRouter` 创建路由对象，代码为：router = APIRouter()",
+  "sec": 1.8,
+  "trace": [
+   {
+    "step": 1,
+    "action": "read",
+    "path": "F:\\demo-base\\server\\api\\wiki.py",
+    "ok": true,
+    "result_head": "OK: 内容前 4000 字\n\"\"\"Wiki 管理 API\n\n错误口径（2026-10-08 内审 ext-183）：本文件原先靠 HTTP 200 + `{\"status\": \"error\", .."
+   },
+   {
+    "step": 2,
+    "action": "answer",
+    "text": "该文件使用 `APIRouter` 创建路由对象，代码为：router = APIRouter()"
+   }
+  ]
+ },
+ {
+  "arm": "base",
+  "inject": false,
+  "steps": 4,
+  "prompt_chars": 2207,
+  "est_tokens": 1379,
+  "first_call_failed": true,
+  "found_file": false,
+  "correct": false,
+  "answer": "无法找到目标文件。根据错误信息，路径 F:\\demo-wiki\\server\\api\\wiki.py 及其父目录均不存在。请确认项目实际路径或检查是否已正确安装/克隆项目。",
+  "sec": 3.5,
+  "trace": [
+   {
+    "step": 1,
+    "action": "read",
+    "path": "F:\\demo-wiki\\server\\api\\wiki.py",
+    "ok": false,
+    "result_head": "ERROR: 文件不存在: F:\\demo-wiki\\server\\api\\wiki.py"
+   },
+   {
+    "step": 2,
+    "action": "list",
+    "path": "F:\\demo-wiki\\server\\api",
+    "ok": false,
+    "result_head": "ERROR: 目录不存在: F:\\demo-wiki\\server\\api"
+   },
+   {
+    "step": 3,
+    "action": "list",
+    "path": "F:\\demo-wiki",
+    "ok": false,
+    "result_head": "ERROR: 目录不存在: F:\\demo-wiki"
+   },
+   {
+    "step": 4,
+    "action": "answer",
+    "text": "无法找到目标文件。根据错误信息，路径 F:\\demo-wiki\\server\\api\\wiki.py 及其父目录均不存在。请确认项目实际路径或检查是否已正确安装/克隆项目。"
+   }
+  ]
+ },
+ {
+  "arm": "inject",
+  "inject": true,
+  "steps": 2,
+  "prompt_chars": 2525,
+  "est_tokens": 1578,
+  "first_call_failed": false,
+  "found_file": true,
+  "correct": true,
+  "answer": "该文件使用 `APIRouter` 创建路由对象，代码为：router = APIRouter()",
+  "sec": 1.9,
+  "trace": [
+   {
+    "step": 1,
+    "action": "read",
+    "path": "F:\\demo-base\\server\\api\\wiki.py",
+    "ok": true,
+    "result_head": "OK: 内容前 4000 字\n\"\"\"Wiki 管理 API\n\n错误口径（2026-10-08 内审 ext-183）：本文件原先靠 HTTP 200 + `{\"status\": \"error\", .."
+   },
+   {
+    "step": 2,
+    "action": "answer",
+    "text": "该文件使用 `APIRouter` 创建路由对象，代码为：router = APIRouter()"
+   }
+  ]
+ },
+ {
+  "arm": "fresh",
+  "inject": false,
+  "steps": 2,
+  "prompt_chars": 2309,
+  "est_tokens": 1443,
+  "first_call_failed": false,
+  "found_file": true,
+  "correct": true,
+  "answer": "该文件使用 `APIRouter` 创建路由对象，代码为：router = APIRouter()",
+  "sec": 1.9,
+  "trace": [
+   {
+    "step": 1,
+    "action": "read",
+    "path": "F:\\demo-base\\server\\api\\wiki.py",
+    "ok": true,
+    "result_head": "OK: 内容前 4000 字\n\"\"\"Wiki 管理 API\n\n错误口径（2026-10-08 内审 ext-183）：本文件原先靠 HTTP 200 + `{\"status\": \"error\", .."
+   },
+   {
+    "step": 2,
+    "action": "answer",
+    "text": "该文件使用 `APIRouter` 创建路由对象，代码为：router = APIRouter()"
+   }
+  ]
+ },
+ {
+  "arm": "base",
+  "inject": false,
+  "steps": 4,
+  "prompt_chars": 2207,
+  "est_tokens": 1379,
+  "first_call_failed": true,
+  "found_file": false,
+  "correct": false,
+  "answer": "无法找到目标文件。根据错误信息，路径 F:\\demo-wiki\\server\\api\\wiki.py 及其父目录均不存在。请确认项目实际路径或检查是否已正确安装/克隆项目。",
+  "sec": 3.4,
+  "trace": [
+   {
+    "step": 1,
+    "action": "read",
+    "path": "F:\\demo-wiki\\server\\api\\wiki.py",
+    "ok": false,
+    "result_head": "ERROR: 文件不存在: F:\\demo-wiki\\server\\api\\wiki.py"
+   },
+   {
+    "step": 2,
+    "action": "list",
+    "path": "F:\\demo-wiki\\server\\api",
+    "ok": false,
+    "result_head": "ERROR: 目录不存在: F:\\demo-wiki\\server\\api"
+   },
+   {
+    "step": 3,
+    "action": "list",
+    "path": "F:\\demo-wiki",
+    "ok": false,
+    "result_head": "ERROR: 目录不存在: F:\\demo-wiki"
+   },
+   {
+    "step": 4,
+    "action": "answer",
+    "text": "无法找到目标文件。根据错误信息，路径 F:\\demo-wiki\\server\\api\\wiki.py 及其父目录均不存在。请确认项目实际路径或检查是否已正确安装/克隆项目。"
+   }
+  ]
+ },
+ {
+  "arm": "inject",
+  "inject": true,
+  "steps": 2,
+  "prompt_chars": 2525,
+  "est_tokens": 1578,
+  "first_call_failed": false,
+  "found_file": true,
+  "correct": true,
+  "answer": "该文件使用 `APIRouter` 创建路由对象，代码为：router = APIRouter()",
+  "sec": 1.9,
+  "trace": [
+   {
+    "step": 1,
+    "action": "read",
+    "path": "F:\\demo-base\\server\\api\\wiki.py",
+    "ok": true,
+    "result_head": "OK: 内容前 4000 字\n\"\"\"Wiki 管理 API\n\n错误口径（2026-10-08 内审 ext-183）：本文件原先靠 HTTP 200 + `{\"status\": \"error\", .."
+   },
+   {
+    "step": 2,
+    "action": "answer",
+    "text": "该文件使用 `APIRouter` 创建路由对象，代码为：router = APIRouter()"
+   }
+  ]
+ },
+ {
+  "arm": "fresh",
+  "inject": false,
+  "steps": 2,
+  "prompt_chars": 2309,
+  "est_tokens": 1443,
+  "first_call_failed": false,
+  "found_file": true,
+  "correct": true,
+  "answer": "该文件使用 `APIRouter` 创建路由对象，代码为：router = APIRouter()",
+  "sec": 1.8,
+  "trace": [
+   {
+    "step": 1,
+    "action": "read",
+    "path": "F:\\demo-base\\server\\api\\wiki.py",
+    "ok": true,
+    "result_head": "OK: 内容前 4000 字\n\"\"\"Wiki 管理 API\n\n错误口径（2026-10-08 内审 ext-183）：本文件原先靠 HTTP 200 + `{\"status\": \"error\", .."
+   },
+   {
+    "step": 2,
+    "action": "answer",
+    "text": "该文件使用 `APIRouter` 创建路由对象，代码为：router = APIRouter()"
+   }
+  ]
+ }
+]

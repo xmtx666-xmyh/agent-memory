@@ -1,0 +1,12 @@
+# 私有词表模板：复制成 .private-terms.txt 后按本机实际情况填写。
+# 一行一个词；# 开头为注释；匹配大小写不敏感。
+# tools/check_private_terms.py 会扫描打包 stage / zip，命中任一即 PACK FAIL。
+#
+# 词表本身**永不进仓、不进包**（.gitignore 已排除）。
+# 下面只是格式示例 —— 填你本机的真实客户名 / 私有项目名 / 内部路径：
+
+acme-client-a
+acme-client-b
+my-private-repo
+F:\private-workspace
+C:\Users\yourname
