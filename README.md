@@ -138,6 +138,11 @@ CI（GitHub Actions，Windows）覆盖 Python 3.10 / 3.11 / 3.12。
 - **不改各 agent 的原始数据**（采集全程只读）。
 - 不做「自动替你做决定」的总结 —— 只提供可核对的结论与前提状态。
 
+## 参考与致谢
+
+本仓为独立实现，**不含任何第三方源代码**；设计上参考过的项目（OpenViking、recall-agents、
+Hermes、Helm/npm）与各自许可、参考点见 [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md)。
+
 ## License
 
 MIT，见 [LICENSE](LICENSE)。
